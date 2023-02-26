@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
+
+.menu button{
+    border: 0;
+    background-color: black;
+    color: greenyellow;
+}
+
+.menu button:hover{
+    border: 1px solid;
+    background-color: rgb(23, 146, 253);
+    color: aquamarine;
+    border-radius: 4px;
+}
+
+#addToCart:hover{
+    border: 2px solid;
+    font-weight: 800;
+}
+
+.modal{
+    padding-top: 5%;
+}
+
+.prodNameDes{
+    text-align: justify;
+}
+
+.cart{
+    background-color: whitesmoke;
+}
